@@ -1,37 +1,52 @@
 
-body{
-    background-color: #0F172A	;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Apply font to all text */
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+body {
+  background-color: #0f172a;
 }
 
 .background {
-  color: #F9FAFB;
+  color: #f9fafb;
   display: flex;
   justify-content: center;
 }
 
 .headshotTitleContainer {
-  background-color:#1E293B;
+  background-color: #1e293b;
   width: 725px;
+  display: flex;
+  height: 400px;
   border-radius: 12%;
   padding-top: 50px;
   padding: 30px;
-  border-color:#7C3AED;
-  border-width:20px;
+  border-color: #7c3aed;
+  border-width: 100px;
   padding-left: 40px;
-  
+  transition: 0.2s ease-in-out;
+}
+
+.description {
+  color: #f1f5f9;
+  font-size: 18px;
+  line-height: 1.6;
+  padding-top: 20px;
+  padding: 12px 24px;;
 }
 
 .headshot > img {
   width: 275px;
   height: 325px;
-  align-content: center;
   border-radius: 5px;
- 
 }
 
 .title {
-  font-family: "Readex Pro", sans-serif;
-  color: #F1F5F9;
-  font-size: 26px;
+  color: #f1f5f9;
+  font-size: 24px;
   font-weight: bold;
+  width: fit-content;
 }
