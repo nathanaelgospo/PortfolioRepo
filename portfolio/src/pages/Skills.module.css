@@ -14,8 +14,30 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
-    justify-content: center;
     width: 1200px;
     padding-top: 24px;
     transition: all 0.3s ease;
+}
+
+@media (max-width: 1280px) {
+
+
+    .grid {
+        width: 900px;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: 1fr 1fr;
+        padding: 24px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .grid {
+        width:350px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 24px;
+        padding: 24px;
+        align-items: stretch;
+    }
 }

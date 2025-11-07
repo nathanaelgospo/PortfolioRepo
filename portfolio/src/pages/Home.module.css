@@ -19,3 +19,16 @@ h1 {
     text-align: center;
     width:1200px;
 }
+
+
+@media (max-width: 1280px) {
+
+    .container{
+        text-align: center;
+        padding-left:12px;
+        width: 90vw;
+    }
+    .container > p{
+        width:fit-content;
+    }
+}

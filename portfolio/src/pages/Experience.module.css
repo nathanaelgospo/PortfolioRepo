@@ -20,3 +20,27 @@
     transition: all 0.3s ease;
 
 }
+
+@media (max-width: 1280px) {
+
+    .grid {
+        width:800px;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    .grid {
+        all: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 24px;
+        align-items: center;
+        width: 90vw;
+    }
+
+}

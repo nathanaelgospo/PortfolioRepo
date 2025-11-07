@@ -45,3 +45,10 @@
 .description{
     line-height: 1.5em;
 }
+@media (max-width: 1024px) {
+
+    .container{
+        width: 300px;
+    }
+
+}
