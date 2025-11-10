@@ -6,6 +6,11 @@
     padding-top: 40px;
 }
 
+.mainContainer > h1{
+    text-align: center;
+
+}
+
 .highlight {
     color: var(--color-primary);
 }
