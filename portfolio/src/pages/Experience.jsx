@@ -1,13 +1,11 @@
 import ExperienceContainer from "../components/ExperienceContainer";
 import styles from "./Experience.module.css"
-import osuLogo from "../assets/osu.jpeg";
-import bbiLogo from "../assets/bbi.svg";
 export default function Experience() {
     const bbiExperience = {
         company: "BBI Logistics",
         title: "Software Engineer Intern",
         description: "Spearheaded the development of an interactive office mapping system and internal analytics dashboard using React.js on the frontend and C# on the backend to manage desk assignments and visualize ticketing data.",
-        skills: ["React", "C# .NET", "Git", "HTML", "CSS"],
+        skills: ["React", "C# .NET", "Git", "HTML", "CSS", "Microsoft Azure"],
     };
     const skywideLogicExperience = {
         company: "Skywide Logic",

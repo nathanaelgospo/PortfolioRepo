@@ -11,6 +11,8 @@ import cSharp from "../assets/cSharp.png";
 import c from "../assets/c.png";
 import python from "../assets/python.png";
 import ruby from "../assets/ruby.png";
+import sql from "../assets/sql.png";
+
 
 export default function Skills() {
 
@@ -25,6 +27,7 @@ export default function Skills() {
     const cSkill = { skill: "C", image: c };
     const pythonSkill = { skill: "Python", image: python };
     const rubySkill = { skill: "Ruby", image: ruby };
+    const sqlSkill = { skill: "SQL", image: sql };
 
     return (
 
@@ -43,6 +46,7 @@ export default function Skills() {
                     <SkillContainer skill={cSkill} />
                     <SkillContainer skill={pythonSkill} />
                     <SkillContainer skill={rubySkill} />
+                    <SkillContainer skill={sqlSkill} />
                 </div>
             </div>
         </section>
