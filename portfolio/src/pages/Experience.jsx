@@ -1,4 +1,5 @@
 import ExperienceContainer from "../components/ExperienceContainer";
+import Education from "../components/Education";
 import styles from "./Experience.module.css"
 export default function Experience() {
     const bbiExperience = {
@@ -29,6 +30,8 @@ export default function Experience() {
                     <ExperienceContainer experience={skywideLogicExperience} />
                     <ExperienceContainer experience={osuTeachingAssitantExperience} />
                 </div>
+                <Education />
+
             </div>
         </secton>
     );
