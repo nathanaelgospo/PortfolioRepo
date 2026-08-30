@@ -1,0 +1,75 @@
+.beyondCodeCard {
+  box-sizing: border-box;
+  width: min(560px, 62vw);
+  min-height: 620px;
+  padding: 18px 18px 34px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  
+    background: var(--color-container);
+    backdrop-filter: blur(12px);
+  
+    border: 1px solid color-mix(in srgb, var(--text-color) 12%, transparent);
+    border-radius: var(--radius-lg);
+  
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .beyondCodeCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  }
+  
+  
+.imageSlot {
+    width: min(100%, 320px);
+    aspect-ratio: 3 / 4;
+    flex: 0 0 auto;
+    display: block;
+    overflow: hidden;
+    background: color-mix(in srgb, var(--text-color) 7%, transparent);
+    border: 1px dashed color-mix(in srgb, var(--text-color) 28%, transparent);
+    border-radius: calc(var(--radius-lg) - 6px);
+    margin-bottom: 28px;
+  }
+
+.image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+  }
+  
+.beyondCodeCard h3 {
+    font-size: 28px;
+    margin: 0 0 15px;
+    margin-bottom: 15px;
+  }
+  
+.beyondCodeCard p {
+    font-size: 16px;
+    opacity: 0.8;
+    line-height: 1.6;
+    max-width: 390px;
+    margin: 0;
+  }
+
+  @media (max-width: 560px) {
+    .beyondCodeCard {
+      width: min(100%, 74vw);
+      min-height: 500px;
+      padding: 12px 12px 28px;
+    }
+
+    .imageSlot {
+      width: min(100%, 220px);
+      margin-bottom: 22px;
+    }
+
+    .beyondCodeCard h3 {
+      font-size: 23px;
+    }
+  }

@@ -1,0 +1,73 @@
+.carousel {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(18px, 4vw, 56px);
+    width: 100%;
+    padding: 24px 0 56px;
+}
+
+
+.arrow {
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    border: none;
+
+    display: grid;
+    place-items: center;
+    flex: 0 0 auto;
+    font-size: 25px;
+
+    cursor: pointer;
+
+    background: var(--color-container);
+    color: var(--text-color);
+    box-shadow: var(--shadow-md);
+
+    transition: transform .2s ease;
+}
+
+
+.arrow:hover {
+    transform: scale(1.15);
+}
+
+.dots {
+    position: absolute;
+    bottom: 12px;
+    display: flex;
+    gap: 10px;
+}
+
+.dot {
+    width: 9px;
+    height: 9px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: var(--color-text-light);
+    opacity: 0.35;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.dot:hover,
+.activeDot {
+    opacity: 1;
+    transform: scale(1.3);
+    background: var(--color-primary);
+}
+
+@media (max-width: 560px) {
+    .carousel {
+        gap: 10px;
+    }
+
+    .arrow {
+        width: 40px;
+        height: 40px;
+    }
+}

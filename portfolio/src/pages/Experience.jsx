@@ -20,18 +20,24 @@ export default function Experience() {
         description: "Offer timely and constructive feedback to enhance student learning and academic performance. Maintain regular office hours to provide personalized support and guidance, ensuring student success.",
         skills: ["Java", "OOP", "Data Structures", "Grading", "Communication"],
     };
+    const capTechConsulting = {
+        company: "CapTech",
+        title: "Software Engineering Consultant Intern",
+        description: "Engineered a full-stack airline application using React, FastAPI, AWS, and AI technologies, delivering customer booking features, backend APIs, cloud infrastructure, and chatbot functionality in an Agile environment.",
+        skills: ["Python", "React", "FastAPI", "AWS", "RAG", "Agile"],
+    };
 
     return (
         <secton id="experience">
             <div className={styles.mainContainer}>
                 <h1> My <span className={styles.highlight}> Experience </span></h1>
                 <div className={styles.grid}>
+                    <ExperienceContainer experience={capTechConsulting}/>
                     <ExperienceContainer experience={bbiExperience} />
                     <ExperienceContainer experience={skywideLogicExperience} />
                     <ExperienceContainer experience={osuTeachingAssitantExperience} />
                 </div>
                 <Education />
-
             </div>
         </secton>
     );

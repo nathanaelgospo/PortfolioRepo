@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio! This site showcases my projects, skills, and experience as a software developer.
 
-🌐 **Live Site:** [https://nathanaelgospo.github.io/porfoliowebsite/portfolio](https://nathanaelgospo.github.io/porfoliowebsite/portfolio)
+🌐 **Live Site:** [https://nathanaelgospo.github.io/portfolio/](https://nathanaelgospo.github.io/portfolio/)
 
 ---
 

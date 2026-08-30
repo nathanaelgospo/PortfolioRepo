@@ -12,14 +12,14 @@ export default function Education() {
                 <span>Aug 2023 - Dec 2026</span>
             </div>
             <div className={styles.gpa}>
-               <strong>GPA:</strong> 3.93/4.0
+               <strong>GPA:</strong> 3.89/4.0
             </div>
 
             <div className={styles.description}>
                 <span>
                    <strong>Activities and societies:</strong> Student Leader in Cru At Ohio State 
                    </span>
-                <span> <strong>Honors:</strong> Deans List AU 2023, SP 2024, AU 2024, SP 2025 (4/4 Semesters)</span>
+                <span> <strong>Honors:</strong> Deans List AU 2023, SP 2024, AU 2024, SP 2025, AU 2025, SP 2026 (6/6 Semesters)</span>
         </div>
         </div >
     )

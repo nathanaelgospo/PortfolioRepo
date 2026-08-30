@@ -12,6 +12,8 @@ import c from "../assets/c.png";
 import python from "../assets/python.png";
 import ruby from "../assets/ruby.png";
 import sql from "../assets/sql.png";
+import FastAPI from "../assets/FastAPI.png"
+import Aws from "../assets/aws.png"
 
 
 export default function Skills() {
@@ -28,6 +30,8 @@ export default function Skills() {
     const pythonSkill = { skill: "Python", image: python };
     const rubySkill = { skill: "Ruby", image: ruby };
     const sqlSkill = { skill: "SQL", image: sql };
+    const fastAPI = { skill: "FastAPI", image: FastAPI };
+    const aws = { skill: "AWS", image: Aws };
 
     return (
 
@@ -35,19 +39,20 @@ export default function Skills() {
             <div className={styles.mainContainer}>
                 <h1> My <span className={styles.highlight}> Skills </span></h1>
                 <div className={styles.grid}>
-                    <SkillContainer skill={javaScriptSkill} />
+                    <SkillContainer skill={pythonSkill} />
                     <SkillContainer skill={javaSkill} />
+                    <SkillContainer skill={cSharpSkill} />
+                    <SkillContainer skill={reactSkill} />
+                    <SkillContainer skill={javaScriptSkill} />
+                    <SkillContainer skill={typeScriptSkill} />
                     <SkillContainer skill={htmlSkill} />
                     <SkillContainer skill={cssSkill} />
-                    <SkillContainer skill={reactSkill} />
-                    <SkillContainer skill={gitSkill} />
-                    <SkillContainer skill={typeScriptSkill} />
-                    <SkillContainer skill={cSharpSkill} />
-                    <SkillContainer skill={cSkill} />
-                    <SkillContainer skill={pythonSkill} />
-                    <SkillContainer skill={rubySkill} />
                     <SkillContainer skill={sqlSkill} />
-                </div>
+                    <SkillContainer skill={gitSkill} />
+                    <SkillContainer skill={cSkill} />
+                    <SkillContainer skill={rubySkill} />
+                    <SkillContainer skill={fastAPI} />
+                    <SkillContainer skill={aws} styles={{ width: "62px" }} />                </div>
             </div>
         </section>
     );

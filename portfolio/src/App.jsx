@@ -3,6 +3,7 @@ import About from "./pages/About";
 import Experience from "./pages/Experience";
 import Contact from "./pages/Contact";
 import Skills from "./pages/Skills";
+import BeyondCode from "./pages/BeyondCode";
 function App() {
   return (
     <div>
@@ -10,6 +11,7 @@ function App() {
       <About />
       <Experience />
       <Skills />
+      <BeyondCode/>
       <Contact />
     </div>
   );

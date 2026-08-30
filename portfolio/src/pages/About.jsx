@@ -10,11 +10,11 @@ export default function About() {
                     <div className={styles.info}>
                         <h3>Aspiring Software Engineer & Full-Stack Dev</h3>
                         <p>
-                            I am a third-year Computer Science and Engineering student at The Ohio State University. Over the past 2.5 years, I’ve immersed myself in learning opportunities both inside and outside the classroom, gaining hands-on experience in software development and system design.
+                            I am a third-year Computer Science and Engineering student at The Ohio State University. Over the past 3 years, I’ve immersed myself in learning opportunities both inside and outside the classroom, gaining hands-on experience in software development and system design.
                             <br />
 
                             <br />
-                            I’ve built scalable projects that combine intuitive front-end solutions using React.js and HTML/CSS with robust back-end architectures powered by C# .NET and Django. I’m passionate about developing technologies that create meaningful impact solutions that extend beyond functionality to improve everyday experiences.
+                            I’ve built scalable projects that combine intuitive front-end solutions using React.js and HTML/CSS with robust back-end architectures powered by C# .NET and Python FastAPI. I’m passionate about developing technologies that create meaningful impact solutions that extend beyond functionality to improve everyday experiences.
                         </p>
                     </div>
                     <div className={styles.image}>
